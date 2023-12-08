@@ -6,13 +6,11 @@ import {
   Box,
   Stack,
   Divider,
-  Button,
   Container,
   Grid,
   Typography,
 } from "@mui/material";
-import MapIcon from "@mui/icons-material/Map";
-import { FilterAlt } from "@mui/icons-material";
+
 import "./SearchResult.css";
 import { storeContext } from "../../Store/StoreProvider";
 import Filtros from "../Filtros";
